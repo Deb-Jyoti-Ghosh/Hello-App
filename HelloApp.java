@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Uc3 {
+public class HelloApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter your name: ");
-        String name = sc.nextLine().trim();
+        System.out.print("Enter names: ");
+        String input = sc.nextLine().trim();
 
-        if (name.isEmpty()) {
+        if (input.isEmpty()) {
             System.out.println("Hello World");
         } else {
-            System.out.println("Hello " + name);
+            System.out.println("Hello " + input);
         }
 
         sc.close();
